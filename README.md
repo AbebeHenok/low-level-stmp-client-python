@@ -13,7 +13,7 @@ This project is intended for **educational and networking/security learning purp
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 - Python 3
 - TCP Sockets
 - SMTP Protocol
@@ -22,7 +22,7 @@ This project is intended for **educational and networking/security learning purp
 
 ---
 
-## 📬 Features
+## Features
 - Manual SMTP command handling
 - TLS-encrypted communication
 - SMTP authentication
@@ -31,7 +31,7 @@ This project is intended for **educational and networking/security learning purp
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository
 2. Install Python 3
