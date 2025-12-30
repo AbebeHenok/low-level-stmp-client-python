@@ -68,9 +68,8 @@ if recv2[:3] != '250':
         print("250 reply not received from server from RECV2")
 
 #Send RCPT TO command and print server response
-# Change the receiver email address to the desired one.
-
-rcpt = 'RCPT TO: <henok.abebe.ce@gmail.com>\r\n'
+# Change the recipient email address to the desired one.
+rcpt = 'RCPT TO: <recipient@gmail.com>\r\n'
 clientSocket.send(rcpt.encode())
 recv3 = clientSocket.recv(1024).decode()
 print("After RCPT TO command: " +recv3)
