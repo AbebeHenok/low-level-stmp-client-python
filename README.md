@@ -36,6 +36,9 @@ This project is intended for **educational and networking/security learning purp
 1. Clone the repository
 2. Install Python 3
 3. Set environment variables (see below)
-4. Run:
+   ```bash
+   export SMTP_USERNAME="youremail@gmail.com"
+   export SMTP_PASSWORD="your_app_password"
+6. Run:
 ```bash
-python smtp_client.py
+python3 smtp_client.py
